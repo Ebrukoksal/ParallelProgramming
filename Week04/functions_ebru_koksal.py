@@ -9,9 +9,9 @@ def custom_equation(x: int = 0 , y: int = 0 , /, a:int = 1, b: int=1 , * , c: in
    :param a: First exponent value
    :param b: Second exponent value
    :param c: Divisor value
-   :return: (x*a + y*b)/c
+   :return: (x**a + y**b)/c
   """
-  return (x*a + y*b)/c
+  return (x**a + y**b)/c
 
 calls = 0
 def fn_w_counter()->(int, dict[str, int]):
